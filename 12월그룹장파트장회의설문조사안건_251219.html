@@ -6,7 +6,6 @@
   <title>설문조사 안건</title>
   <style>
     :root {
-      /* InBody Burgundy */
       --inbody-burgundy: #8C1D18;
       --inbody-burgundy-dark: #6f1612;
       --background: #f7f6f6;
@@ -33,11 +32,6 @@
       padding: 24px 20px;
       display: flex;
       align-items: center;
-      gap: 20px;
-    }
-
-    .logo {
-      height: 40px;
     }
 
     .header-title h1 {
@@ -82,6 +76,7 @@
       font-size: 14px;
       color: var(--text-sub);
       margin-bottom: 20px;
+      line-height: 1.6;
     }
 
     .btn {
@@ -93,12 +88,10 @@
       text-decoration: none;
       font-weight: 600;
       font-size: 14px;
-      transition: background 0.2s ease, transform 0.1s ease;
     }
 
     .btn:hover {
       background: var(--inbody-burgundy-dark);
-      transform: translateY(-1px);
     }
 
     footer {
@@ -113,7 +106,7 @@
   <header class="header">
     <div class="header-inner">
       <div class="header-title">
-        <h1>12월 그룹장 파트장 설문조사 안건</h1>
+        <h1>12월 그룹장·파트장 설문조사 안건</h1>
         <p>의견 취합을 위한 설문조사입니다</p>
       </div>
     </div>
@@ -121,17 +114,39 @@
 
   <main class="container">
     <div class="intro">
-      총 3개의 설문은 개별적으로 진행되며, 모두 응답해 주시면 감사하겠습니다.
+      총 4개의 설문은 개별적으로 진행되며, 모두 응답해 주시면 감사하겠습니다.
     </div>
 
+    <!-- 설문조사 ① (신규 추가) -->
     <section class="card">
       <h2>설문조사 ①</h2>
-      <p>조직이 성장함에 따라 구성원 간 소통은 점점 더 어려워지는 동시에, 그 중요성 또한 더욱 커지고 있습니다.</br>
-이에 대한 개선 방안으로, VOE 시스템(해외법인 VOE 외 7개)을 개발하여 다양한 소통 채널을 구축·운영하고 있으며, 법인·지사 간 소통 강화를 위한 TF 운영도 추진해오고 있습니다.</br>
-2026년에도 조직 및 계층 간, 다양한 영역에서의 지속적인 소통 강화가 필요하다고 판단됩니다.</br>
-이를 위해 조직장님께서 생각하시는</br>
-1) 원활한 조직 간 소통을 위한 방법과</br>
-2) 추가적인 소통이 필요하다고 생각되는 영역에 대해 의견을 제안해 주시기 바랍니다.</p>
+      <p>
+      독일의 EGYM은 피트니스 장비 제조사를 넘어, 개인이 스스로 신체 구성과 운동 능력을 평가하고 맞춤 운동을 수행할 수 있는 데이터·소프트웨어 기반 솔루션을 구축하며 피트니스 시장의 판도를 바꾸고 있습니다. <br/>또한 300여 개 브랜드와의 연동, 구독형 임직원 멤버십(EGYM Wellpass)을 통해 현재 약 1.8조, 앞으로 더 성장할 것으로 보이는 추가 매출을 창출하고 있습니다. <br/>이러한 EGYM의 성장 모델을 참고하여 다음 질문에 대한 의견을 부탁드립니다.<br/>
+EGYM은 InBody의 경쟁사인가, 협력사인가?<br/>
+이러한 변화 속에서 InBody는 어떤 방향으로 나아가야 하는가?
+      </p>
+      <a
+        class="btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd2sUhGXx5GYt6CTUcMDaf8wkQvnDrWDoc-bTHg9mfjwZWRng/viewform?usp=dialog"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        설문조사 참여하기
+      </a>
+    </section>
+
+    <!-- 기존 설문 ① → 설문 ② -->
+    <section class="card">
+      <h2>설문조사 ②</h2>
+      <p>
+        조직이 성장함에 따라 구성원 간 소통은 점점 더 어려워지는 동시에, 그 중요성 또한 더욱 커지고 있습니다.<br/>
+        이에 대한 개선 방안으로, VOE 시스템(해외법인 VOE 외 7개)을 개발하여 다양한 소통 채널을 구축·운영하고 있으며,
+        법인·지사 간 소통 강화를 위한 TF 운영도 추진해오고 있습니다.<br/>
+        2026년에도 조직 및 계층 간, 다양한 영역에서의 지속적인 소통 강화가 필요하다고 판단됩니다.<br/>
+        조직장님께서 생각하시는<br/>
+        1) 원활한 조직 간 소통을 위한 방법과<br/>
+        2) 추가적인 소통이 필요하다고 생각되는 영역에 대해 의견을 제안해 주시기 바랍니다.
+      </p>
       <a
         class="btn"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdHuAG575zSLQiQh2Ld5vtcxEHI_2YTPbScQKg91H9aoq2xIw/viewform?usp=dialog"
@@ -142,13 +157,16 @@
       </a>
     </section>
 
+    <!-- 기존 설문 ② → 설문 ③ -->
     <section class="card">
-      <h2>설문조사 ②</h2>
-      <p> 우리의 업무는 단일 조직에서 완료되기보다, 여러 부서가 협업하여 함께 마무리되는 경우가 많습니다. </br>
-이 과정에서 명확한 담당자가 없어 그동안 충분히 다뤄지지 못한 업무들도 존재합니다.</br>
-이러한 과제들을 정리하고 체계적으로 해결해 나가고자 합니다.</br>
-개발, 구매, 제조, CS 등 여러 부서가 관여되는 '품목 마스터 관리'와 같이, </br>
-명확한 오너십을 가지고 추진할 필요가 있다고 생각되는 업무에 대해 자유롭게 의견을 주시기 바랍니다.</p>
+      <h2>설문조사 ③</h2>
+      <p>
+        우리의 업무는 단일 조직에서 완료되기보다, 여러 부서가 협업하여 함께 마무리되는 경우가 많습니다.<br/>
+        이 과정에서 명확한 담당자가 없어 충분히 다뤄지지 못한 업무들도 존재합니다.<br/>
+        이러한 과제들을 정리하고 체계적으로 해결해 나가고자 합니다.<br/>
+        개발, 구매, 제조, CS 등 여러 부서가 관여되는 ‘품목 마스터 관리’와 같이,
+        명확한 오너십을 가지고 추진할 필요가 있다고 생각되는 업무에 대해 자유롭게 의견을 주시기 바랍니다.
+      </p>
       <a
         class="btn"
         href="https://docs.google.com/forms/d/e/1FAIpQLScxJ0bTXWf2DxgEZ2fgdFAE_LGSXh-U-YxOgVsMJQ0iA9-GpQ/viewform?usp=dialog"
@@ -159,10 +177,14 @@
       </a>
     </section>
 
+    <!-- 기존 설문 ③ → 설문 ④ -->
     <section class="card">
-      <h2>설문조사 ③</h2>
-      <p>금일 25년 복기 및 26년 주요계획에 대해 조직별 발표가 있었습니다.</br>
- 각 조직에 대해 제안이나 요청 사항이 있다면 자유로이 의견 주시기 바랍니다. (본건은 리스트 업하여 정리, 공유 드리겠습니다)</p>
+      <h2>설문조사 ④</h2>
+      <p>
+        금일 2025년 업무 복기 및 2026년 주요 계획에 대한 조직별 발표가 있었습니다.<br/>
+        각 조직에 대해 제안하거나 요청하고 싶은 사항이 있다면 자유롭게 의견을 주시기 바랍니다.<br/>
+        (본 의견은 리스트업하여 정리 후 공유드릴 예정입니다.)
+      </p>
       <a
         class="btn"
         href="https://docs.google.com/forms/d/e/1FAIpQLSfULDqP8rmhNVWZaQ7Rvzw0j5tJYqF6qZuvCqcfx-bIZhAPWQ/viewform?usp=dialog"
